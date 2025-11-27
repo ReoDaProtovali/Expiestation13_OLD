@@ -20,7 +20,7 @@ $include map_vote.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+SERVERNAME Expiestation
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -140,7 +140,7 @@ VOTE_PERIOD 600
 NORESPAWN
 
 ## Combat indicator, comment out to disable it
-COMBAT_INDICATOR
+# COMBAT_INDICATOR
 
 ## set a hosted by name for unix platforms
 HOSTEDBY Yournamehere
@@ -186,7 +186,7 @@ GUEST_BAN
 # RULESURL http://www.tgstation13.org/wiki/Rules
 
 ## Github address
-GITHUBURL https://github.com/Monkestation/Monkestation2.0/
+GITHUBURL https://github.com/ReoDaProtovali/Expiestation13/
 
 ## Discord bot command prefix, if the discord bot is used
 # DISCORDBOTCOMMANDPREFIX ?

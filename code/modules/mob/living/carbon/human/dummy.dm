@@ -165,6 +165,10 @@ INITIALIZE_IMMEDIATE(/mob/living/carbon/human/dummy)
 	target.dna.features["arm_wings"] = get_consistent_feature_entry(GLOB.arm_wings_list) //Monkestation Addition
 	target.dna.features["ears_avian"] = get_consistent_feature_entry(GLOB.avian_ears_list) //Monkestation Addition
 	target.dna.features["tail_avian"] = get_consistent_feature_entry(GLOB.tails_list_avian) //Monkestation Addition
+	//Expiestation Addition: Expiestation species
+	target.dna.features["tail_experiment"] = get_consistent_feature_entry(GLOB.tails_list_experiment)
+	target.dna.features["headspikes_experiment"] = get_consistent_feature_entry(GLOB.headspikes_list_experiment)
+	//Expiestation Addition End
 
 	var/datum/color_palette/generic_colors/palette = target.dna.color_palettes[/datum/color_palette/generic_colors]
 	palette.mutant_color = COLOR_VIBRANT_LIME

@@ -149,6 +149,12 @@
 	if(!GLOB.oni_horns_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/oni_horns, GLOB.oni_horns_list)
 //Monkestation Addition End
+//Expiestation Addition Start
+	if(!GLOB.tails_list_experiment.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/experiment, GLOB.tails_list_experiment)
+	if(!GLOB.headspikes_list_experiment.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/experiment_headspikes, GLOB.headspikes_list_experiment)
+//Expiestation Addition End
 
 	//For now we will always return none for tail_human and ears. | "For now" he says.
 	return(list(
@@ -194,6 +200,9 @@
 		"oni_tail" = pick(GLOB.oni_tail_list), //Monkestation Addition
 		"oni_wings" = pick(GLOB.oni_wings_list), //Monkestation Addition
 		"oni_horns" = pick(GLOB.oni_horns_list), //Monkestation Addition
+		//Expiestation Addition Start: Expiestation Species
+		"tail_experiment" = "Normal", //other tails can be cut
+		"headspikes_experiment" = "Intact", //other headspikes are damaged variants
 	))
 
 /proc/random_hairstyle(gender)

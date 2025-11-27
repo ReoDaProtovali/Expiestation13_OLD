@@ -105,3 +105,7 @@
 /// MONKESTATION ADDITIONS
 // Apids and Bees!!
 #define FACTION_HIVE "hive"
+
+// EXPIESTATION ADDITIONS
+/// The various gunsawians and creatures that are friendly to them (But not others)
+#define FACTION_SAWIAN "sawian"
